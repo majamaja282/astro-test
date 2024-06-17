@@ -38,10 +38,10 @@ _ukázka toho jak funguje markdown atd_
 
 ## Dostaneme naší stránku ven!
 
-V [`astro.config.mjs`](./astro.config.mjs) změníme:
+1. V [`astro.config.mjs`](./astro.config.mjs) změníme:
 ```diff
 - site: 'https://tomaskebrle.github.io',
 + site: 'https://<vase_jmeno_na_githubu>.github.io/',
 ```
-
-Všechny naše změny uložíme a _pushneme_ na github.
+2. V Githubu povolíme Github page
+3. Všechny naše změny uložíme a _pushneme_ na github.
